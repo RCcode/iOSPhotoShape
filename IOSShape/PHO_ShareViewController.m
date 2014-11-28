@@ -159,32 +159,30 @@
     [self.view addSubview:switchBtn];
     
     //判断是否已下载完数据
-    if (app.appsArray.count == 0)
+    //查看数据库中是否存在
+    if ([[FONT_SQLMassager shareStance] getAllData].count == 0)
     {
-        //查看数据库中是否存在
-        if ([[FONT_SQLMassager shareStance] getAllData].count == 0)
+        //Bundle Id
+        NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
+        NSDictionary *infoDict = [[NSBundle mainBundle] infoDictionary];
+        NSString *currentVersion = [infoDict objectForKey:@"CFBundleVersion"];
+        NSString *language = [[NSLocale preferredLanguages] firstObject];
+        if ([language isEqualToString:@"zh-Hans"])
         {
-            //Bundle Id
-            NSString *bundleIdentifier = [[NSBundle mainBundle] bundleIdentifier];
-            NSDictionary *infoDict = [[NSBundle mainBundle] infoDictionary];
-            NSString *currentVersion = [infoDict objectForKey:@"CFBundleVersion"];
-            NSString *language = [[NSLocale preferredLanguages] firstObject];
-            if ([language isEqualToString:@"zh-Hans"])
-            {
-                language = @"zh";
-            }
-            else if ([language isEqualToString:@"zh-Hant"])
-            {
-                language = @"zh_TW";
-            }
-            NSDictionary *dic = @{@"appId":[NSNumber numberWithInt:moreAppID],@"packageName":bundleIdentifier,@"language":language,@"version":currentVersion,@"platform":[NSNumber numberWithInt:0]};
-            PHO_DataRequest *request = [[PHO_DataRequest alloc] initWithDelegate:self];
-            [request moreApp:dic withTag:11];
+            language = @"zh";
         }
-        else
+        else if ([language isEqualToString:@"zh-Hant"])
         {
-            app.appsArray = [[FONT_SQLMassager shareStance] getAllData];
+            language = @"zh_TW";
         }
+        NSDictionary *dic = @{@"appId":[NSNumber numberWithInt:moreAppID],@"packageName":bundleIdentifier,@"language":language,@"version":currentVersion,@"platform":[NSNumber numberWithInt:0]};
+        PHO_DataRequest *request = [[PHO_DataRequest alloc] initWithDelegate:self];
+        [request moreApp:dic withTag:11];
+    }
+    else
+    {
+        app.appsArray = [[FONT_SQLMassager shareStance] getAllData];
+        app.appsArray = changeMoreTurnArray(app.appsArray);
     }
     
     appMoretableView = [[UITableView alloc]initWithFrame:CGRectZero];
@@ -520,6 +518,7 @@
     [dataArray addObjectsFromArray:noDownArray];
     [dataArray addObjectsFromArray:isDownArray];
     app.appsArray = dataArray;
+    app.appsArray = changeMoreTurnArray(app.appsArray);
     
     //判断是否有新应用
     if (app.appsArray.count > 0)

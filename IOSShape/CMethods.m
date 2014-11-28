@@ -10,6 +10,7 @@
 #import <stdlib.h>
 #import <time.h>
 #import "PHO_AppDelegate.h"
+#import "ME_AppInfo.h"
 
 //用户当前的语言环境
 #define CURR_LANG   ([[NSLocale preferredLanguages] objectAtIndex:0])
@@ -306,6 +307,23 @@ NSString *exchangeTime(NSString *time)
     NSDate *confromTimesp = [NSDate dateWithTimeIntervalSince1970:timeValues];
     NSString *dataStr = [formatter stringFromDate:confromTimesp];
     return dataStr;
+}
+
+NSMutableArray *changeMoreTurnArray(NSArray *array)
+{
+    NSMutableArray *tempArray = [[NSMutableArray alloc]initWithArray:array];
+    for (ME_AppInfo *info in array)
+    {
+        if (info.openUrl)
+        {
+            if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:info.openUrl]])
+            {
+                [tempArray removeObject:info];
+                [tempArray insertObject:info atIndex:tempArray.count];
+            }
+        }
+    }
+    return [NSMutableArray arrayWithArray:tempArray];
 }
 
 @end

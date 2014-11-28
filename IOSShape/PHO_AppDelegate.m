@@ -433,6 +433,7 @@
             [dataArray addObjectsFromArray:noDownArray];
             [dataArray addObjectsFromArray:isDownArray];
             self.appsArray = dataArray;
+            self.appsArray = changeMoreTurnArray(self.appsArray);
             
             //判断是否有新应用
             if (self.appsArray.count > 0)

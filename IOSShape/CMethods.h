@@ -75,4 +75,6 @@ CGSize sizeWithContentAndFont(NSString *content,CGSize size,float fontSize);
 
 void cancleAllRequests();
 
+NSMutableArray *changeMoreTurnArray(NSArray *array);
+
 @end

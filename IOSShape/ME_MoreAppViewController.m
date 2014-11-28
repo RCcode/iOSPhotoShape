@@ -39,10 +39,23 @@
     appInfoTableView = nil;
 }
 
+
+- (void)backToForeground
+{
+    PHO_AppDelegate *app = (PHO_AppDelegate *)[UIApplication sharedApplication].delegate;
+    app.appsArray = [[FONT_SQLMassager shareStance] getAllData];
+    app.appsArray = changeMoreTurnArray(app.appsArray);
+    
+    [appInfoTableView reloadData];
+    
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     self.title = @"More Apps";
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(backToForeground) name:UIApplicationWillEnterForegroundNotification object:nil];
     
     self.view.backgroundColor = [UIColor whiteColor];
     
@@ -88,9 +101,12 @@
         else
         {
             app.appsArray = [[FONT_SQLMassager shareStance] getAllData];
+            
         }
         hideMBProgressHUD();
     }
+    
+    app.appsArray = changeMoreTurnArray(app.appsArray);
     
     appInfoTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, self.view.bounds.size.height - 44 - 50) style:UITableViewStylePlain];
     if (!iPhone5)
@@ -254,6 +270,7 @@
     [dataArray addObjectsFromArray:noDownArray];
     [dataArray addObjectsFromArray:isDownArray];
     app.appsArray = dataArray;
+    app.appsArray = changeMoreTurnArray(app.appsArray);
     
     //判断是否有新应用
     if (app.appsArray.count > 0)
