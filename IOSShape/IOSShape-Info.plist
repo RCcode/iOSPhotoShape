@@ -57,10 +57,10 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>com.rcplatform.IOSShape</string>
+			<string>com.rileycillian.PhotoShape</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>rcAppShape</string>
+				<string>rcAppPhotoShape</string>
 			</array>
 		</dict>
 	</array>
