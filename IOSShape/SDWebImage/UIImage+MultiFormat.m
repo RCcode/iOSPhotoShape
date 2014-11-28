@@ -46,6 +46,10 @@
 
 +(UIImageOrientation)sd_imageOrientationFromImageData:(NSData *)imageData {
     UIImageOrientation result = UIImageOrientationUp;
+    if (imageData == nil)
+    {
+        return result;
+    }
     CGImageSourceRef imageSource = CGImageSourceCreateWithData((__bridge CFDataRef)imageData, NULL);
     CFDictionaryRef properties = CGImageSourceCopyPropertiesAtIndex(imageSource, 0, NULL);
     if (properties) {

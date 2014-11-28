@@ -92,7 +92,11 @@
         hideMBProgressHUD();
     }
     
-    appInfoTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, self.view.bounds.size.height - 64 - 50) style:UITableViewStylePlain];
+    appInfoTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, self.view.bounds.size.height - 44 - 50) style:UITableViewStylePlain];
+    if (!iPhone5)
+    {
+        appInfoTableView.frame = CGRectMake(0, 0, 320, self.view.bounds.size.height - 44);
+    }
     [appInfoTableView registerNib:[UINib nibWithNibName:@"Me_MoreTableViewCell" bundle:nil] forCellReuseIdentifier:@"cell"];
     appInfoTableView.backgroundColor = [UIColor clearColor];
     appInfoTableView.backgroundView = nil;
@@ -169,7 +173,8 @@
     cell.typeLabel.text = appInfo.appCate;
 //    [cell.logoImageView sd_setImageWithURL:[NSURL URLWithString:appInfo.iconUrl] placeholderImage:nil];
 
-    [cell.logoImageView setImageWithURL:[NSURL URLWithString:appInfo.iconUrl] placeholderImage:nil];
+    [cell.logoImageView sd_setImageWithURL:[NSURL URLWithString:appInfo.iconUrl] placeholderImage:nil options:SDWebImageRetryFailed | SDWebImageLowPriority];
+    
     cell.commentLabel.text = [NSString stringWithFormat:@"(%d)",appInfo.appComment];
     NSString *title = @"";
     if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:appInfo.openUrl]])

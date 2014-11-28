@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E804A21A19936314008FE8E4 /* ME_MoreAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E804A21819936314008FE8E4 /* ME_MoreAppViewController.xib */; };
 		E804A21B19936314008FE8E4 /* Me_MoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E804A21919936314008FE8E4 /* Me_MoreTableViewCell.xib */; };
 		E804A22019936377008FE8E4 /* ME_MoreAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E804A21F19936377008FE8E4 /* ME_MoreAppViewController.m */; };
 		E804A225199363D5008FE8E4 /* ME_AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E804A224199363D5008FE8E4 /* ME_AppInfo.m */; };
@@ -57,6 +56,7 @@
 		E812C342195454FA00BC2333 /* nocrop_banner@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E812C341195454FA00BC2333 /* nocrop_banner@2x.jpg */; };
 		E81CDB37199474D000F4E43C /* 切换-选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E81CDB36199474D000F4E43C /* 切换-选中@2x.png */; };
 		E81CDB3C19947AA400F4E43C /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E81CDB3919947AA400F4E43C /* libMobClickLibrary.a */; };
+		E822271B1A285E9B0012C727 /* Icon_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E822271A1A285E9B0012C727 /* Icon_more@2x.png */; };
 		E8287497192F069B0047611C /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = E8287493192F069B0047611C /* MBProgressHUD+Add.m */; };
 		E8287498192F069B0047611C /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E8287494192F069B0047611C /* MBProgressHUD.bundle */; };
 		E8287499192F069B0047611C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E8287496192F069B0047611C /* MBProgressHUD.m */; };
@@ -262,7 +262,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E804A21819936314008FE8E4 /* ME_MoreAppViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ME_MoreAppViewController.xib; sourceTree = "<group>"; };
 		E804A21919936314008FE8E4 /* Me_MoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Me_MoreTableViewCell.xib; sourceTree = "<group>"; };
 		E804A21E19936377008FE8E4 /* ME_MoreAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ME_MoreAppViewController.h; sourceTree = "<group>"; };
 		E804A21F19936377008FE8E4 /* ME_MoreAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ME_MoreAppViewController.m; sourceTree = "<group>"; };
@@ -350,6 +349,7 @@
 		E81CDB3919947AA400F4E43C /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
 		E81CDB3A19947AA400F4E43C /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
 		E81CDB3B19947AA400F4E43C /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
+		E822271A1A285E9B0012C727 /* Icon_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_more@2x.png"; sourceTree = "<group>"; };
 		E8287492192F069B0047611C /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
 		E8287493192F069B0047611C /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		E8287494192F069B0047611C /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
@@ -772,7 +772,6 @@
 			isa = PBXGroup;
 			children = (
 				E806CD3D19371ED900459E9D /* PHO_AboutUsViewController.xib */,
-				E804A21819936314008FE8E4 /* ME_MoreAppViewController.xib */,
 				E804A21919936314008FE8E4 /* Me_MoreTableViewCell.xib */,
 			);
 			name = Resource;
@@ -1108,6 +1107,7 @@
 		E8946FEA1941965B00BEA743 /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				E822271A1A285E9B0012C727 /* Icon_more@2x.png */,
 				E8E0BA25194B21DF0084F923 /* Icon-76.png */,
 				E8E0BA26194B21DF0084F923 /* Icon-76@2x.png */,
 				E80F566A1945D283006B6E2F /* Default-568h@2x.png */,
@@ -1484,7 +1484,6 @@
 			files = (
 				E8F40A3E192CCB0300A2F0A9 /* InfoPlist.strings in Resources */,
 				E845C5C4199A010F007A3F8C /* pattern-class6@2x.png in Resources */,
-				E804A21A19936314008FE8E4 /* ME_MoreAppViewController.xib in Resources */,
 				E845C5BF199A010F007A3F8C /* pattern-class1@2x.png in Resources */,
 				E8F7EF9A1946B58000228EEB /* Localizable.strings in Resources */,
 				E845C5C6199A010F007A3F8C /* pattern-class8@2x.png in Resources */,
@@ -1568,6 +1567,7 @@
 				E88F6BE51949C02F00485947 /* NCF3Map.png in Resources */,
 				E845C5A41999F262007A3F8C /* shape_08 in Resources */,
 				E845C5B11999F9AC007A3F8C /* graph_05 in Resources */,
+				E822271B1A285E9B0012C727 /* Icon_more@2x.png in Resources */,
 				E845C5EA199A036A007A3F8C /* edit_share@2x.png in Resources */,
 				E845C5C2199A010F007A3F8C /* pattern-class4@2x.png in Resources */,
 				E845C5D2199A0171007A3F8C /* shape-class4@2x.png in Resources */,

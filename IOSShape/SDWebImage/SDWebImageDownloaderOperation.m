@@ -228,6 +228,10 @@
         CGImageSourceUpdateData(imageSource, (__bridge CFDataRef)self.imageData, totalSize == self.expectedSize);
 
         if (width + height == 0) {
+            if (imageSource == nil)
+            {
+                return;
+            }
             CFDictionaryRef properties = CGImageSourceCopyPropertiesAtIndex(imageSource, 0, NULL);
             if (properties) {
                 NSInteger orientationValue = -1;

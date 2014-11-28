@@ -365,7 +365,7 @@
 - (void)openMoreAppButtonPressed:(id)sender
 {
     [self sendMessage:@"home_moreapps" and:@"home"];
-    ME_MoreAppViewController *moreApp = [[ME_MoreAppViewController alloc]initWithNibName:@"ME_MoreAppViewController" bundle:nil];
+    ME_MoreAppViewController *moreApp = [[ME_MoreAppViewController alloc]init];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:moreApp];
     [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"titlebar.png"] forBarMetrics:UIBarMetricsDefault];
     nav.navigationBar.barStyle = UIBarStyleBlackTranslucent;

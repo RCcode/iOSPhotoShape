@@ -469,7 +469,8 @@
     [cell.contentView addSubview:titleLabel];
     
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(15, labelsize.height + 10, 290, 120)];
-    [imageView sd_setImageWithURL:[NSURL URLWithString:appInfo.bannerUrl] placeholderImage:nil];
+//    [imageView sd_setImageWithURL:[NSURL URLWithString:appInfo.bannerUrl] placeholderImage:nil];
+    [imageView sd_setImageWithURL:[NSURL URLWithString:appInfo.bannerUrl] placeholderImage:nil options:SDWebImageRetryFailed | SDWebImageLowPriority];
     [cell.contentView addSubview:imageView];
     
     return cell;
