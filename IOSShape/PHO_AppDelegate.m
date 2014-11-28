@@ -461,7 +461,8 @@
                 {
                     [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"MoreAPP"];
                     [[NSNotificationCenter defaultCenter] postNotificationName:@"addMoreImage" object:nil];
-                    [[FONT_SQLMassager shareStance] insertAppInfo:array];
+                    [[FONT_SQLMassager shareStance] deleteAllData];
+                    [[FONT_SQLMassager shareStance] insertAppInfo:infoArray];
                     [[NSUserDefaults standardUserDefaults] synchronize];
                 }
             }

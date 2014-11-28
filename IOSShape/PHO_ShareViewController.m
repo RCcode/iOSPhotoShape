@@ -544,7 +544,9 @@
         //插入新数据
         if (array.count > 0)
         {
-            [[FONT_SQLMassager shareStance] insertAppInfo:array];
+            [[FONT_SQLMassager shareStance] deleteAllData];
+            [[FONT_SQLMassager shareStance] insertAppInfo:infoArray];
+
         }
     }
     [appMoretableView reloadData];
