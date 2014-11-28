@@ -16,7 +16,6 @@
     #import"Defines.h"
     #import"CMethods.h"
     #import"MobClick.h"
-    #import"Flurry.h"
 
 
 #define KShareSuccess @"sharesuccess"

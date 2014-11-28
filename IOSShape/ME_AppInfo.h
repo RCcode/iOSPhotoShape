@@ -22,6 +22,9 @@
 @property (nonatomic ,strong) NSString *openUrl;
 @property (nonatomic ,assign) BOOL isHave;
 @property (nonatomic ,strong) NSString *appDesc;
+@property (nonatomic ,assign) int state;
+
+@property (nonatomic, strong) NSMutableDictionary *stuff;
 
 - (id)initWithDictionary:(NSDictionary *)dic;
 

@@ -10,6 +10,8 @@
 
 @implementation ME_AppInfo
 
+@synthesize stuff;
+
 - (id)initWithDictionary:(NSDictionary *)dic
 {
     self = [super init];
@@ -18,6 +20,28 @@
     
     return self;
 }
+//- (void)setValuesForKeysWithDictionary:(NSDictionary *)keyedValues
+//{
+//    for (NSString *key in [keyedValues allKeys])
+//    {
+//        [self setValue:[keyedValues objectForKey:key] forUndefinedKey:key];
+//    }
+//}
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    if (stuff == nil)
+    {
+        stuff = [[NSMutableDictionary alloc]init];
+    }
+    [stuff setObject:value forKey:key];
+}
+
+- (id)valueForUndefinedKey:(NSString *)key
+{
+    id value = [stuff objectForKey:key];
+    return (value);
+}
 
 - (void)setValuesForKeysWithDictionary:(NSDictionary *)keyedValues
 {
@@ -25,7 +49,14 @@
     {
         if ([key isEqualToString:@"openUrl"])
         {
-            NSURL *url = [NSURL URLWithString:[keyedValues objectForKey:@"openUrl"]];
+            NSString *string = [keyedValues objectForKey :@"openUrl"];
+            NSURL *url = nil;
+            
+            if (![string isKindOfClass:[NSNull class]] && string != nil ) {
+                url = [NSURL URLWithString:string];
+            }else{
+                url = nil;
+            }
             if ([[UIApplication sharedApplication] canOpenURL:url])
             {
                 self.isHave = YES;

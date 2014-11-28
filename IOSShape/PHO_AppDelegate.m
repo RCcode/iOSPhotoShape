@@ -66,17 +66,7 @@
     
     
     //下载moreApp数据
-    [self downLoadAppsInfo];
-
-    /** flurry相关设置 **/
-    
-    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
-    
-    [Flurry startSession:FlurryAPPKey];
-    //调试日志
-//    [Flurry setLogLevel:FlurryLogLevelDebug];
-    //程序退出时上传数据
-    [Flurry setSessionReportsOnCloseEnabled:YES];
+    [self downLoadAppsInfo];    
     
     //程序是否为激活状态
     
@@ -182,12 +172,6 @@
 {
     self.manager = [AFHTTPRequestOperationManager manager];
     self.manager.responseSerializer = [[AFHTTPResponseSerializer alloc] init];
-}
-
-#pragma mark flurry 推荐设置添加一个未捕获的异常监听器
-void uncaughtExceptionHandler(NSException *exception)
-{
-    [Flurry logError:@"Uncaught" message:@"Crash!" exception:exception];
 }
 
 #pragma mark 注册通知

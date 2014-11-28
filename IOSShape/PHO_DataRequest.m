@@ -120,7 +120,7 @@
     [requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [requestSerializer setTimeoutInterval:30];
     
-    [self requestServiceWithPost:@"http://moreapp.rcplatformhk.net/pbweb/app/getIOSAppList.do" jsonRequestSerializer:requestSerializer  isRegisterToken:NO];
+    [self requestServiceWithPost:@"http://moreapp.rcplatformhk.net/pbweb/app/getIOSAppListNew.do" jsonRequestSerializer:requestSerializer  isRegisterToken:NO];
 }
 
 

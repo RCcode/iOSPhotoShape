@@ -261,8 +261,6 @@
     //友盟统计
     [MobClick event:event label:nil];
     
-    //flurryAnalytics
-    [Flurry logEvent:event];
 }
 
 

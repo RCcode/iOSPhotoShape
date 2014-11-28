@@ -401,8 +401,6 @@
     //友盟统计
     [MobClick event:event label:lable];
     
-    //flurryAnalytics
-    [Flurry logEvent:event];
 }
 
 - (void)didReceiveMemoryWarning

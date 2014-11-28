@@ -562,9 +562,6 @@
 {
     //友盟统计
     [MobClick event:event label:label];
-    
-    //flurryAnalytics
-    [Flurry logEvent:event];
 }
 
 

@@ -211,7 +211,6 @@
 		E8946FF41941AF6800BEA743 /* Shape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8946FF31941AF6800BEA743 /* Shape@2x.png */; };
 		E8C852051934481D008BDE26 /* CMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C852041934481D008BDE26 /* CMethods.m */; };
 		E8CFC16B193EFECB006DD57A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CFC16A193EFECB006DD57A /* libsqlite3.dylib */; };
-		E8CFC16F193F238C006DD57A /* libFlurry_5.0.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CFC16E193F238C006DD57A /* libFlurry_5.0.0.a */; };
 		E8CFC174193F34E6006DD57A /* PHO_DataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CFC173193F34E6006DD57A /* PHO_DataRequest.m */; };
 		E8E0BA27194B21DF0084F923 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = E8E0BA25194B21DF0084F923 /* Icon-76.png */; };
 		E8E0BA28194B21DF0084F923 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8E0BA26194B21DF0084F923 /* Icon-76@2x.png */; };
@@ -551,8 +550,6 @@
 		E8C852041934481D008BDE26 /* CMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMethods.m; sourceTree = "<group>"; };
 		E8C8520619344888008BDE26 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		E8CFC16A193EFECB006DD57A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		E8CFC16D193F238C006DD57A /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		E8CFC16E193F238C006DD57A /* libFlurry_5.0.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.0.0.a; sourceTree = "<group>"; };
 		E8CFC172193F34E6006DD57A /* PHO_DataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHO_DataRequest.h; sourceTree = "<group>"; };
 		E8CFC173193F34E6006DD57A /* PHO_DataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHO_DataRequest.m; sourceTree = "<group>"; };
 		E8E0BA25194B21DF0084F923 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
@@ -651,7 +648,6 @@
 				E8CFC16B193EFECB006DD57A /* libsqlite3.dylib in Frameworks */,
 				E890EC60193EEF8B00A129E7 /* CoreData.framework in Frameworks */,
 				E806CD161936DBBE00459E9D /* libz.dylib in Frameworks */,
-				E8CFC16F193F238C006DD57A /* libFlurry_5.0.0.a in Frameworks */,
 				E8103EFE192DECA2005AFA16 /* MediaPlayer.framework in Frameworks */,
 				E8103EFC192DEC8A005AFA16 /* MessageUI.framework in Frameworks */,
 				E8103EFA192DEC80005AFA16 /* SystemConfiguration.framework in Frameworks */,
@@ -824,7 +820,6 @@
 				E81CDB3819947AA400F4E43C /* uMengSDK */,
 				E8E42A9D1940156100AC4825 /* checkNet */,
 				E8E42A7B194012A200AC4825 /* AFNetworking */,
-				E8CFC16C193F233F006DD57A /* flurryAnalytics */,
 				E8287491192F069B0047611C /* MBProgressHUD */,
 				E804A22A1993685C008FE8E4 /* SDWebImage */,
 				E8103EE0192DEB93005AFA16 /* AdMobSDK */,
@@ -1169,15 +1164,6 @@
 				E8C852041934481D008BDE26 /* CMethods.m */,
 			);
 			name = publicMetod;
-			sourceTree = "<group>";
-		};
-		E8CFC16C193F233F006DD57A /* flurryAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				E8CFC16D193F238C006DD57A /* Flurry.h */,
-				E8CFC16E193F238C006DD57A /* libFlurry_5.0.0.a */,
-			);
-			name = flurryAnalytics;
 			sourceTree = "<group>";
 		};
 		E8CFC170193F3460006DD57A /* DataGeters */ = {
