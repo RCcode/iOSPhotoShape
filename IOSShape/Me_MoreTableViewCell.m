@@ -41,7 +41,7 @@
 
 - (IBAction)installBtnClick:(id)sender
 {
-    if (self.appInfo.isHave)
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:self.appInfo.openUrl]])
     {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.appInfo.openUrl]];
     }

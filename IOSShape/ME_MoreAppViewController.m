@@ -224,7 +224,7 @@
     
     [self event:[NSString stringWithFormat:@"homeMoreApp_%d",appInfo.appId] label:@"home"];
     
-    if (appInfo.isHave)
+    if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:appInfo.openUrl]])
     {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:appInfo.openUrl]];
     }
