@@ -222,7 +222,7 @@
 {
     ME_AppInfo *appInfo = [[(PHO_AppDelegate *)[[UIApplication sharedApplication] delegate] appsArray] objectAtIndex:indexPath.row];
     
-    [self event:[NSString stringWithFormat:@"homeMoreApp_%d",appInfo.appId] label:@"home"];
+    [self event:[NSString stringWithFormat:@"c_more_%@",appInfo.appName] label:@"C_MORE"];
     
     if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:appInfo.openUrl]])
     {
@@ -252,6 +252,7 @@
     PHO_AppDelegate *app = (PHO_AppDelegate *)[[UIApplication sharedApplication] delegate];
     
     NSArray *infoArray = [dic objectForKey:@"list"];
+    NSMutableArray *sqlArray = [[NSMutableArray alloc]init];
     NSMutableArray *isDownArray = [NSMutableArray arrayWithCapacity:0];
     NSMutableArray *noDownArray = [NSMutableArray arrayWithCapacity:0];
     for (NSDictionary *infoDic in infoArray)
@@ -265,6 +266,7 @@
         {
             [noDownArray addObject:appInfo];
         }
+        [sqlArray addObject:appInfo];
     }
     NSMutableArray *dataArray = [NSMutableArray arrayWithCapacity:0];
     [dataArray addObjectsFromArray:noDownArray];
@@ -297,7 +299,7 @@
         if (array.count > 0)
         {
             [[FONT_SQLMassager shareStance] deleteAllData];
-            [[FONT_SQLMassager shareStance] insertAppInfo:infoArray];
+            [[FONT_SQLMassager shareStance] insertAppInfo:sqlArray];
 
         }
     }

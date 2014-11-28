@@ -415,6 +415,7 @@
         {
             NSLog(@"dic.......%@",dic);
             NSArray *infoArray = [dic objectForKey:@"list"];
+            NSMutableArray *sqlArray = [[NSMutableArray alloc]init];
             NSMutableArray *isDownArray = [NSMutableArray arrayWithCapacity:0];
             NSMutableArray *noDownArray = [NSMutableArray arrayWithCapacity:0];
             for (NSDictionary *infoDic in infoArray)
@@ -428,6 +429,7 @@
                 {
                     [noDownArray addObject:appInfo];
                 }
+                [sqlArray addObject:appInfo];
             }
             NSMutableArray *dataArray = [NSMutableArray arrayWithCapacity:0];
             [dataArray addObjectsFromArray:noDownArray];
@@ -462,7 +464,7 @@
                     [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"MoreAPP"];
                     [[NSNotificationCenter defaultCenter] postNotificationName:@"addMoreImage" object:nil];
                     [[FONT_SQLMassager shareStance] deleteAllData];
-                    [[FONT_SQLMassager shareStance] insertAppInfo:infoArray];
+                    [[FONT_SQLMassager shareStance] insertAppInfo:sqlArray];
                     [[NSUserDefaults standardUserDefaults] synchronize];
                 }
             }
