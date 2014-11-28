@@ -9,8 +9,8 @@
 "isLatestVersion"             = "Ultima versione in uso";
 "updateNow"                   = "Aggiorna adesso";
 "remindLater"                 = "Ricordamelo dopo";
-"user_camera_step"            = "Si prega di aprire la fotocamera per le autorizzazioni Shapegram: Impostazioni telefono -> Privacy -> Camera -> Shapegram (aperto)";
-"user_library_step"           = "Si prega di aprire la fotocamera per le autorizzazioni Shapegram: Impostazioni telefono -> Privacy -> Foto -> Shapegram (aperto)";
+"user_camera_step"            = "Si prega di aprire la fotocamera per le autorizzazioni PhotoShape: Impostazioni telefono -> Privacy -> Camera -> PhotoShape (aperto)";
+"user_library_step"           = "Si prega di aprire la fotocamera per le autorizzazioni PhotoShape: Impostazioni telefono -> Privacy -> Foto -> PhotoShape (aperto)";
 
 "aboutView_update"            = "Aggiornamento";
 "aboutView_score"             = "Punti";
@@ -18,7 +18,7 @@
 "aboutView_shareApp"          = "Condividi App";
 "aboutView_followUs"          = "Seguici";
 "aboutView_shareTitle"        = "Shape per instagram";
-"aboutView_content"           = "Sto usando Shapegram, posso scegliere tra più di 110 forme speciali e 100 filtri e sfondi da aggiungere alle foto, devi provarlo assolutamente!";
+"aboutView_content"           = "Sto usando PhotoShape, posso scegliere tra più di 110 forme speciali e 100 filtri e sfondi da aggiungere alle foto, devi provarlo assolutamente!";
 
 "editView_shape"              = "Forma";
 "editView_love"               = "Amore";
@@ -43,7 +43,7 @@
 "shareView_saveFaile"         = "Salvataggio foto non riuscito";
 "shareView_shareSuccess"      = "Condiviso con successo";
 "shareView_shareFaile"        = "Condivisione non riuscita";
-"shareView_rateMessage"       = "Se ti piace Shapegram, non esitare a darci la tua opinione e votare la nostra App!";
+"shareView_rateMessage"       = "Se ti piace PhotoShape, non esitare a darci la tua opinione e votare la nostra App!";
 "shareView_remaindLater"      = "Ricordamelo dopo";
 "shareView_NoMoreTip"         = "No grazie";
 "shareView_rateNow"           = "Vota ora";

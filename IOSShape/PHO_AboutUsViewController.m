@@ -157,9 +157,8 @@
             
             // app名称 版本
             NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
-            
             NSString *app_Name = [infoDictionary objectForKey:@"CFBundleDisplayName"];
-            NSString *app_Version = [infoDictionary objectForKey:@"CFBundleVersion"];
+            NSString *app_Version = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
             
             //设备型号 系统版本
             NSString *deviceName = doDevicePlatform();
@@ -175,17 +174,14 @@
             //本地语言
             NSString *language = [[NSLocale preferredLanguages] firstObject];
             
-            //NSString *diveceInfo = @"app版本号 手机型号 手机系统版本 分辨率 语言";
+            //            NSString *diveceInfo = @"app版本号 手机型号 手机系统版本 分辨率 语言";
             NSString *diveceInfo = [NSString stringWithFormat:@"%@ %@, %@, %@ %@, %@, %@", app_Name, app_Version, deviceName, deviceSystemName, deviceSystemVer,  resolution, language];
             
-            //需要分享的内容
-            NSString *shareContent = [NSString stringWithFormat:@"%@ http://bit.ly/1jlOK8k",LocalizedString(@"aboutView_content", @"")];
-            NSArray *activityItems = @[shareContent];
-
             //直接发邮件
             MFMailComposeViewController *picker = [[MFMailComposeViewController alloc] init];
+            if(!picker) break;
             picker.mailComposeDelegate =self;
-            NSString *subject = @"-Shapegram Feedback";
+            NSString *subject = [NSString stringWithFormat:@"%@ %@ (iOS)",LocalizedString(@"app_name", nil), LocalizedString(@"feedback", nil)];
             [picker setSubject:subject];
             [picker setToRecipients:@[kFeedbackEmail]];
             [picker setMessageBody:diveceInfo isHTML:NO];
@@ -199,7 +195,7 @@
             
             
             //需要分享的内容
-            NSString *shareContent = [NSString stringWithFormat:@"%@ http://bit.ly/1jlOK8k",LocalizedString(@"aboutView_content", @"")];
+            NSString *shareContent = [NSString stringWithFormat:@"%@ http://bit.ly/1zBFbL7",LocalizedString(@"aboutView_content", @"")];
             NSArray *activityItems = @[shareContent];
             
             UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:activityItems applicationActivities:nil];

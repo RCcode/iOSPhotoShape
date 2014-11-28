@@ -10,8 +10,8 @@
 "isLatestVersion"             = "Se está usando la úlima versión";
 "updateNow"                   = "Actualizar ahora";
 "remindLater"                 = "Recordar más tarde";
-"user_camera_step"            = "Por favor, abra la cámara de los permisos Shapegram: Configuración del teléfono -> Privacidad -> Cámara -> Shapegram (abierto)";
-"user_library_step"           = "Por favor, abra la cámara de los permisos Shapegram: Configuración del teléfono -> Privacidad -> Fotos -> Shapegram (abierto)";
+"user_camera_step"            = "Por favor, abra la cámara de los permisos PhotoShape: Configuración del teléfono -> Privacidad -> Cámara -> PhotoShape (abierto)";
+"user_library_step"           = "Por favor, abra la cámara de los permisos PhotoShape: Configuración del teléfono -> Privacidad -> Fotos -> PhotoShape (abierto)";
 
 "aboutView_update"            = "Actualizar";
 "aboutView_score"             = "Puntuación";
@@ -19,7 +19,7 @@
 "aboutView_shareApp"          = "Compartir App";
 "aboutView_followUs"          = "Siguenos";
 "aboutView_shareTitle"        = "Shape para Instagram";
-"aboutView_content"           = "Estoy usando Shapegram, puedo elegir entre más de 110 formar magníficas e interesantes, también más de 100 fondos y filtros para añadir a las fotos, ¡Tienes que probarlo!";
+"aboutView_content"           = "Estoy usando PhotoShape, puedo elegir entre más de 110 formar magníficas e interesantes, también más de 100 fondos y filtros para añadir a las fotos, ¡Tienes que probarlo!";
 
 "editView_shape"              = "Forma";
 "editView_love"               = "Amor";
@@ -44,7 +44,7 @@
 "shareView_saveFaile"         = "Fallo al guardar foto";
 "shareView_shareSuccess"      = "Compartir completado";
 "shareView_shareFaile"        = "Fallo al compartir";
-"shareView_rateMessage"       = "Si estás disfrutando de Shapegram, por favor tomate un momento y puntuanos y escribe algún comentario";
+"shareView_rateMessage"       = "Si estás disfrutando de PhotoShape, por favor tomate un momento y puntuanos y escribe algún comentario";
 "shareView_remaindLater"      = "Recuérdamelo más tarde";
 "shareView_NoMoreTip"         = "No,gracias";
 "shareView_rateNow"           = "Puntuar ahora";

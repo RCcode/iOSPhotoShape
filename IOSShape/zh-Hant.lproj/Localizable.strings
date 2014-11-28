@@ -10,8 +10,8 @@
 "isLatestVersion"             = "已是最新版";
 "updateNow"                   = "馬上升級";
 "remindLater"                 = "稍後再說";
-"user_camera_step"            = "請為Shapegram開放相機權限：手機設置->隱私->相機->Shapegram（打開）";
-"user_library_step"           = "請為Shapegram開放相機權限：手機設置->隱私->照片->Shapegram（打開）";
+"user_camera_step"            = "請為PhotoShape開放相機權限：手機設置->隱私->相機->PhotoShape（打開）";
+"user_library_step"           = "請為PhotoShape開放相機權限：手機設置->隱私->照片->PhotoShape（打開）";
 
 "aboutView_update"            = "更新";
 "aboutView_score"             = "評價";
@@ -19,7 +19,7 @@
 "aboutView_shareApp"          = "分享應用";
 "aboutView_followUs"          = "關注我們";
 "aboutView_shareTitle"        = "分享到 instagram";
-"aboutView_content"           = "我正在用的Shapegram,可以為照片添加110多種漂亮有趣的形狀，還有100多種背景和濾鏡選擇，你也來試試吧!";
+"aboutView_content"           = "我正在用的PhotoShape,可以為照片添加110多種漂亮有趣的形狀，還有100多種背景和濾鏡選擇，你也來試試吧!";
 
 "editView_shape"              = "形狀";
 "editView_love"               = "心形";
@@ -44,7 +44,7 @@
 "shareView_saveFaile"         = "圖片保存失敗";
 "shareView_shareSuccess"      = "分享成功";
 "shareView_shareFaile"        = "分享失敗";
-"shareView_rateMessage"       = "感謝使用Shapegram,請花點時間給予五星評分，感謝你對我們的支持!";
+"shareView_rateMessage"       = "感謝使用PhotoShape,請花點時間給予五星評分，感謝你對我們的支持!";
 "shareView_remaindLater"      = "稍後再說";
 "shareView_NoMoreTip"         = "不再提醒";
 "shareView_rateNow"           = "馬上評價";

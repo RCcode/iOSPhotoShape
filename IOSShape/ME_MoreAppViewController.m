@@ -125,7 +125,6 @@
 
 - (void)leftItemButtonPressed:(id)sender
 {
-
     cancleAllRequests();
     hideMBProgressHUD();
     [[NSUserDefaults standardUserDefaults] setObject:@"0" forKey:@"MoreAPP"];

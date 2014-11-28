@@ -9,8 +9,8 @@
 "isLatestVersion"             = "最新のバージョンです";
 "updateNow"                   = "今すぐアップグレード";
 "remindLater"                 = "また後で";
-"user_camera_step"            = "Shapegramアクセス権のためのカメラを開いてください：電話の設定 - >プライバシー - >カメラ - > Shapegram（オープン）";
-"user_library_step"           = "Shapegramアクセス権のためのカメラを開いてください：電話の設定 - >プライバシー - >写真 ​​- > Shapegram（オープン）";
+"user_camera_step"            = "PhotoShapeアクセス権のためのカメラを開いてください：電話の設定 - >プライバシー - >カメラ - > PhotoShape（オープン）";
+"user_library_step"           = "PhotoShapeアクセス権のためのカメラを開いてください：電話の設定 - >プライバシー - >写真 ​​- > PhotoShape（オープン）";
 
 "aboutView_update"            = "アップデート";
 "aboutView_score"             = "評価";
@@ -18,7 +18,7 @@
 "aboutView_shareApp"          = "アプリをシェアする";
 "aboutView_followUs"          = "フォローする";
 "aboutView_shareTitle"        = "shape for instagram";
-"aboutView_content"           = "今使っているShapegramには110種類以上のきれいでおもしろいShapeフレームと100種類以上のフィルター効果があり、写真加工ができます。さあ、あなたも今すぐやってみよう!";
+"aboutView_content"           = "今使っているPhotoShapeには110種類以上のきれいでおもしろいShapeフレームと100種類以上のフィルター効果があり、写真加工ができます。さあ、あなたも今すぐやってみよう!";
 
 "editView_shape"              = "形";
 "editView_love"               = "ハート";
@@ -43,7 +43,7 @@
 "shareView_saveFaile"         = "写真の保存に失敗しました";
 "shareView_shareSuccess"      = "シェアに成功しました";
 "shareView_shareFaile"        = "シェアに失敗しました";
-"shareView_rateMessage"       = "Shapegramのご利用ありがとうございます。これからも支持されるよう努力致します";
+"shareView_rateMessage"       = "PhotoShapeのご利用ありがとうございます。これからも支持されるよう努力致します";
 "shareView_remaindLater"      = "また後で";
 "shareView_NoMoreTip"         = "通知しない";
 "shareView_rateNow"           = "今すぐ評価";

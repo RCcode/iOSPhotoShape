@@ -10,16 +10,16 @@
 "isLatestVersion"             = "Using latest version";
 "updateNow"                   = "Tingkatkan sekarang";
 "remindLater"                 = "Ingatkan lagi nanti";
-"user_camera_step"            = "Silakan memungkinkan shapegram untuk mengakses kamera : Pengaturan telepon -> Privasi -> Kamera ->  shapegram  (Izinkan)";
-"user_library_step"           = "Silakan memungkinkan shapegram untuk mengakses album : Pengaturan telepon -> Privasi -> Album ->  shapegram  (Izinkan)";
+"user_camera_step"            = "Silakan memungkinkan PhotoShape untuk mengakses kamera : Pengaturan telepon -> Privasi -> Kamera ->  PhotoShape  (Izinkan)";
+"user_library_step"           = "Silakan memungkinkan PhotoShape untuk mengakses album : Pengaturan telepon -> Privasi -> Album ->  PhotoShape  (Izinkan)";
 
 "aboutView_update"            = "Perbarui";
 "aboutView_score"             = "Skor";
 "aboutView_feedback"          = "Tanggapan";
 "aboutView_shareApp"          = "Berbagi aplikasi";
 "aboutView_followUs"          = "Ikuti kami";
-"aboutView_shareTitle"        = "Shapegram";
-"aboutView_content"           = "Saya menggunakan Shapegram, saya dapat memilih lebih dari 150 bentuk yang keren dan menarik, serta lebih dari 100 latar belakang dan filter untuk ditambahkan ke gambar, Anda harus mencobanya!";
+"aboutView_shareTitle"        = "PhotoShape";
+"aboutView_content"           = "Saya menggunakan PhotoShape, saya dapat memilih lebih dari 150 bentuk yang keren dan menarik, serta lebih dari 100 latar belakang dan filter untuk ditambahkan ke gambar, Anda harus mencobanya!";
 
 "editView_shape"              = "Bentuk";
 "editView_love"               = "Cinta";
@@ -44,7 +44,7 @@
 "shareView_saveFaile"         = "Menyimpan gambar gagal";
 "shareView_shareSuccess"      = "Berhasil berbagi";
 "shareView_shareFaile"        = "Berbagi gagal";
-"shareView_rateMessage"       = "Jika Anda menikmati shapegram, silakan luangkan waktu untuk menilai dan meninjau aplikasi!";
+"shareView_rateMessage"       = "Jika Anda menikmati PhotoShape, silakan luangkan waktu untuk menilai dan meninjau aplikasi!";
 "shareView_remaindLater"      = "Ingatkan lagi nanti";
 "shareView_NoMoreTip"         = "Tidak, terima kasih";
 "shareView_rateNow"           = "Nilai sekarang";

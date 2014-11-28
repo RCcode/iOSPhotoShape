@@ -10,8 +10,8 @@
 "isLatestVersion"             = "Utilizando última versão";
 "updateNow"                   = "Atualize agora";
 "remindLater"                 = "Lembrar mais tarde";
-"user_camera_step"            = "Por favor, abra a câmera para as permissões Shapegram: Configurações do telefone -> Privacidade -> Câmara -> Shapegram (aberto)";
-"user_library_step"           = "Por favor, abra a câmera para as permissões Shapegram: Configurações do telefone -> Privacidade -> Fotos -> Shapegram (aberto)";
+"user_camera_step"            = "Por favor, abra a câmera para as permissões PhotoShape: Configurações do telefone -> Privacidade -> Câmara -> PhotoShape (aberto)";
+"user_library_step"           = "Por favor, abra a câmera para as permissões PhotoShape: Configurações do telefone -> Privacidade -> Fotos -> PhotoShape (aberto)";
 
 "aboutView_update"            = "Atualizar";
 "aboutView_score"             = "Avalie";
@@ -19,7 +19,7 @@
 "aboutView_shareApp"          = "Compartilhe o aplicativo";
 "aboutView_followUs"          = "Siga-nos";
 "aboutView_shareTitle"        = "Formatos para Instagram";
-"aboutView_content"           = "Eu estou usando o Shapegram, posso escolher entre mais de 110 iradas e incríveis formatos, bem com mais de 100 planos de fundo, filtros para adicionar nas fotos. Você precisa experimentar!";
+"aboutView_content"           = "Eu estou usando o PhotoShape, posso escolher entre mais de 110 iradas e incríveis formatos, bem com mais de 100 planos de fundo, filtros para adicionar nas fotos. Você precisa experimentar!";
 
 "editView_shape"              = "Forma";
 "editView_love"               = "Amor";
@@ -44,7 +44,7 @@
 "shareView_saveFaile"         = "Falha ao salvar foto";
 "shareView_shareSuccess"      = "Compartilhada com sucesso";
 "shareView_shareFaile"        = "Falha ao compartilhar";
-"shareView_rateMessage"       = "Se você está curtindo Shapegram, por favor, gaste um minutinho e avalie esse aplicativo!";
+"shareView_rateMessage"       = "Se você está curtindo PhotoShape, por favor, gaste um minutinho e avalie esse aplicativo!";
 "shareView_remaindLater"      = "Lembrar mais tarde";
 "shareView_NoMoreTip"         = "Não obrigado";
 "shareView_rateNow"           = "Avaliar agora";

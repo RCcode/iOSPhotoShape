@@ -9,8 +9,8 @@
 "isLatestVersion"             = "Utilisation de la dernière version";
 "updateNow"                   = "Mettre à jour maintenant";
 "remindLater"                 = "Rappeler plus tard";
-"user_camera_step"            = "S'il vous plaît ouvrir l'appareil photo pour les autorisations de Shapegram: Paramètres du téléphone -> Confidentialité -> Caméra -> Shapegram (ouverte)";
-"user_library_step"           = "S'il vous plaît ouvrir l'appareil photo pour les autorisations de Shapegram: Paramètres du téléphone -> Confidentialité -> Photos -> Shapegram (ouverte)";
+"user_camera_step"            = "S'il vous plaît ouvrir l'appareil photo pour les autorisations de PhotoShape: Paramètres du téléphone -> Confidentialité -> Caméra -> PhotoShape (ouverte)";
+"user_library_step"           = "S'il vous plaît ouvrir l'appareil photo pour les autorisations de PhotoShape: Paramètres du téléphone -> Confidentialité -> Photos -> PhotoShape (ouverte)";
 
 "aboutView_update"            = "Mise à jour";
 "aboutView_score"             = "Score";
@@ -18,7 +18,7 @@
 "aboutView_shareApp"          = "Partagez l'app";
 "aboutView_followUs"          = "Suivez-nous";
 "aboutView_shareTitle"        = "shape for instagram";
-"aboutView_content"           = "J'utilise Shapegram, je peux choisir parmi plus de 110 formes cool et intéressantes,ainsi que plus de 100 arrières-plan et filtres à ajouter aux photos, vous devez l'essayer!";
+"aboutView_content"           = "J'utilise PhotoShape, je peux choisir parmi plus de 110 formes cool et intéressantes,ainsi que plus de 100 arrières-plan et filtres à ajouter aux photos, vous devez l'essayer!";
 
 "editView_shape"              = "forme";
 "editView_love"               = "amour";
@@ -43,7 +43,7 @@
 "shareView_saveFaile"         = "La sauvegarde de la photo a echoué";
 "shareView_shareSuccess"      = "Partagé avec succès";
 "shareView_shareFaile"        = "Echec du partage";
-"shareView_rateMessage"       = "Si vous appreciez Shapegram,prenez un moment pour noter et revoir l'app!";
+"shareView_rateMessage"       = "Si vous appreciez PhotoShape,prenez un moment pour noter et revoir l'app!";
 "shareView_remaindLater"      = "Rappelez plus tard";
 "shareView_NoMoreTip"         = "Non merci";
 "shareView_rateNow"           = "Notez maintenant";

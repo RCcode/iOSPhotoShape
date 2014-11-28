@@ -9,8 +9,8 @@
 "isLatestVersion"             = "현재 최신 버전입니다";
 "updateNow"                   = "업데이트";
 "remindLater"                 = "나중에";
-"user_camera_step"            = "Shapegram 권한 카메라를여십시오 : 전화 설정 -> 개인 정보 보호 -> 카메라 -> Shapegram (오픈)";
-"user_library_step"           = "Shapegram 권한 카메라를여십시오 : 전화 설정 -> 개인 정보 보호 -> 사진 -> Shapegram (오픈)";
+"user_camera_step"            = "PhotoShape 권한 카메라를여십시오 : 전화 설정 -> 개인 정보 보호 -> 카메라 -> PhotoShape (오픈)";
+"user_library_step"           = "PhotoShape 권한 카메라를여십시오 : 전화 설정 -> 개인 정보 보호 -> 사진 -> PhotoShape (오픈)";
 
 "aboutView_update"            = "업데이트";
 "aboutView_score"             = "평점";
@@ -18,7 +18,7 @@
 "aboutView_shareApp"          = "공유하기";
 "aboutView_followUs"          = "팔로우";
 "aboutView_shareTitle"        = "shape for instagram";
-"aboutView_content"           = "제가 사용하고 있는 Shapegram 어플 추천합니다! 110개 여러 종류의 모양으로 사진을 편집할 수 도 있고 100여개 사진 배경이랑 필터 기능도 있어요~ 한번 사용해 보세요!";
+"aboutView_content"           = "제가 사용하고 있는 PhotoShape 어플 추천합니다! 110개 여러 종류의 모양으로 사진을 편집할 수 도 있고 100여개 사진 배경이랑 필터 기능도 있어요~ 한번 사용해 보세요!";
 
 "editView_shape"              = "모양";
 "editView_love"               = "사랑";
@@ -43,7 +43,7 @@
 "shareView_saveFaile"         = "저장 실패";
 "shareView_shareSuccess"      = "공유함";
 "shareView_shareFaile"        = "공유 실패";
-"shareView_rateMessage"       = "Shapegram 을 사용해주셔서 감사합니다. 좋은 평점 부탁해요!";
+"shareView_rateMessage"       = "PhotoShape 을 사용해주셔서 감사합니다. 좋은 평점 부탁해요!";
 "shareView_remaindLater"      = "나중에";
 "shareView_NoMoreTip"         = "그만 알림";
 "shareView_rateNow"           = "평가 하러 가기";

@@ -22,8 +22,8 @@
 #define KShareSuccess @"sharesuccess"
 
 
-#define appleID           @"888215372"
-#define UmengAPPKey       @"5379996956240b8e43131db9"
+#define appleID           @"946308019"
+#define UmengAPPKey       @"5477ef52fd98c54b160008c7"
 #define FlurryAPPKey      @"TDWM2F2ZXBDCVRVFBS8Z"
 //#define FlurryAPPKey      @"SCF6NC6HZ62WM8ZZCQV9" //自测key
 #define GAAPPKey          @"UA-49487373-4"
@@ -45,7 +45,7 @@ static NSString *DEVICE_TOKEN = @"deviceToken";
 static NSString *FONTNAMESTRING = @"HelveticaNeue-Light";
 static NSString *kShareHotTags = @"（Made with @shapegram_rc) #shapegram";
 
-static int moreAppID = 20057;
+static int moreAppID = 20081;
 
 //release发布不打印日志
 #endif

@@ -10,16 +10,16 @@
 "isLatestVersion"             = "Using latest version";
 "updateNow"                   = "อัพเกรดเลย";
 "remindLater"                 = "เตือนภายหลัง";
-"user_camera_step"            = "โปรดอนุญาติ \"shapegram\" ในกล้องถ่ายรูปของคุณ ไปที่: การตั้งค่าโทรศัพท์ - ส่วนตัว - กล้องถ่ายรูป - shapegram (อนุญาติ)";
-"user_library_step"           = "โปรดอนุญาติ \"shapegram\" ในอัลบั้มภาพของคุณ ไปที่: การตั้งค่าโทรศัพท์ - ส่วนตัว - กล้องถ่ายรูป - shapegram (อนุญาติ)";
+"user_camera_step"            = "โปรดอนุญาติ \"PhotoShape\" ในกล้องถ่ายรูปของคุณ ไปที่: การตั้งค่าโทรศัพท์ - ส่วนตัว - กล้องถ่ายรูป - PhotoShape (อนุญาติ)";
+"user_library_step"           = "โปรดอนุญาติ \"PhotoShape\" ในอัลบั้มภาพของคุณ ไปที่: การตั้งค่าโทรศัพท์ - ส่วนตัว - กล้องถ่ายรูป - PhotoShape (อนุญาติ)";
 
 "aboutView_update"            = "อัพเดท";
 "aboutView_score"             = "ได้คะแนน";
 "aboutView_feedback"          = "ผลตอบรับ";
 "aboutView_shareApp"          = "แบ่งปันแอพ";
 "aboutView_followUs"          = "ติดตามเรา";
-"aboutView_shareTitle"        = "Shapegram";
-"aboutView_content"           = "ตอนนี้กำลังใช้ Shapegram สามารถเลือกรูปทรงเท่ๆและน่าสนใจได้มากกว่า 150 แบบ รวมถึงภาพพื้นหลังมากกว่า 100 ลาย พร้อมฟิลเตอร์สำหรับภาพของคุณ แบบนี้ต้องมาลองด้วยตัวเองแล้ว!";
+"aboutView_shareTitle"        = "PhotoShape";
+"aboutView_content"           = "ตอนนี้กำลังใช้ PhotoShape สามารถเลือกรูปทรงเท่ๆและน่าสนใจได้มากกว่า 150 แบบ รวมถึงภาพพื้นหลังมากกว่า 100 ลาย พร้อมฟิลเตอร์สำหรับภาพของคุณ แบบนี้ต้องมาลองด้วยตัวเองแล้ว!";
 
 "editView_shape"              = "รูปทรง";
 "editView_love"               = "ความรัก";
@@ -44,7 +44,7 @@
 "shareView_saveFaile"         = "ไม่สามารถบันทึกรูปภาพได้";
 "shareView_shareSuccess"      = "แบ่งปันรูปภาพสำเร็จ";
 "shareView_shareFaile"        = "ไม่สามารถแบ่งปันรูปภาพได้";
-"shareView_rateMessage"       = "หากคุณชอบใช้ Shapegram รบกวนสละเวลาซักครู่เพื่อให้คะแนนแอพ และให้คำติชมแอพนี้";
+"shareView_rateMessage"       = "หากคุณชอบใช้ PhotoShape รบกวนสละเวลาซักครู่เพื่อให้คะแนนแอพ และให้คำติชมแอพนี้";
 "shareView_remaindLater"      = "เตือนภายหลัง";
 "shareView_NoMoreTip"         = "ไม่ล่ะ ขอบคุณ";
 "shareView_rateNow"           = "ให้คะแนนเลย";

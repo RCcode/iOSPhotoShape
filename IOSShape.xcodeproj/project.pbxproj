@@ -1817,8 +1817,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.rcplatform.IOSShape";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.rcplatform.IOSShape";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Riley Cillian (47UF3W9BYC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Riley Cillian (47UF3W9BYC)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1836,7 +1836,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "1D285F35-3371-4BD5-85F9-282A1954411B";
+				PROVISIONING_PROFILE = "7c2d5ecb-afc3-4e40-a70a-5ccbe8626782";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1858,8 +1858,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.rcplatform.IOSShape";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.rcplatform.IOSShape";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Riley Cillian (47UF3W9BYC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Riley Cillian (47UF3W9BYC)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1870,7 +1870,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PROVISIONING_PROFILE = "1D285F35-3371-4BD5-85F9-282A1954411B";
+				PROVISIONING_PROFILE = "7c2d5ecb-afc3-4e40-a70a-5ccbe8626782";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1880,7 +1880,7 @@
 		E8F40A5D192CCB0300A2F0A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.rcplatform.IOSShape";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Riley Cillian (47UF3W9BYC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOSShape/IOSShape-Prefix.pch";
 				INFOPLIST_FILE = "IOSShape/IOSShape-Info.plist";
@@ -1894,7 +1894,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1D285F35-3371-4BD5-85F9-282A1954411B";
+				PROVISIONING_PROFILE = "7c2d5ecb-afc3-4e40-a70a-5ccbe8626782";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s";
@@ -1905,7 +1905,7 @@
 		E8F40A5E192CCB0300A2F0A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.rcplatform.IOSShape";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Riley Cillian (47UF3W9BYC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IOSShape/IOSShape-Prefix.pch";
 				INFOPLIST_FILE = "IOSShape/IOSShape-Info.plist";
@@ -1919,7 +1919,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1D285F35-3371-4BD5-85F9-282A1954411B";
+				PROVISIONING_PROFILE = "7c2d5ecb-afc3-4e40-a70a-5ccbe8626782";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;

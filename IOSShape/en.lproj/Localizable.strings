@@ -10,16 +10,16 @@
 "isLatestVersion"             = "Using latest version";
 "updateNow"                   = "Upgrade Now";
 "remindLater"                 = "Remind Later";
-"user_camera_step"            = "Please open the camera for the Shapegram permissions: Phone Settings -> Privacy -> Camera -> Shapegram (open)";
-"user_library_step"           = "Please open the camera for the Shapegram permissions: Phone Settings -> Privacy -> Photos -> Shapegram (open)";
+"user_camera_step"            = "Please open the camera for the PhotoShape permissions: Phone Settings -> Privacy -> Camera -> PhotoShape (open)";
+"user_library_step"           = "Please open the camera for the PhotoShape permissions: Phone Settings -> Privacy -> Photos -> PhotoShape (open)";
 
 "aboutView_update"            = "Update";
 "aboutView_score"             = "Score";
 "aboutView_feedback"          = "Feedback";
 "aboutView_shareApp"          = "Share App";
 "aboutView_followUs"          = "Follow Us";
-"aboutView_shareTitle"        = "Shapegram";
-"aboutView_content"           = "I'm using Shapegram, I can choose from over 110 cool and interesting shapes, as well as over 100 backgrounds and filters to add to pictures, you've go to try it!";
+"aboutView_shareTitle"        = "PhotoShape";
+"aboutView_content"           = "I'm using PhotoShape, I can choose from over 110 cool and interesting shapes, as well as over 100 backgrounds and filters to add to pictures, you've go to try it!";
 
 "editView_shape"              = "shape";
 "editView_love"               = "love";
@@ -44,7 +44,7 @@
 "shareView_saveFaile"         = "Picture save failed";
 "shareView_shareSuccess"      = "Successfully shared";
 "shareView_shareFaile"        = "Share failed";
-"shareView_rateMessage"       = "If you're enjoying Shapegram, please take a moment to rate and review the app!";
+"shareView_rateMessage"       = "If you're enjoying PhotoShape, please take a moment to rate and review the app!";
 "shareView_remaindLater"      = "Remind later";
 "shareView_NoMoreTip"         = "No Thanks";
 "shareView_rateNow"           = "Rate Now";
